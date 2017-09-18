@@ -4,7 +4,7 @@ import itertools
 
 script_dir = os.path.dirname(__file__)
 file_dir = '/Datasets/'
-filename = 'rosalind_ini2.txt'
+filename = input('What is your input file called? ')
 filepath = file_dir + filename
 absolute_filepath = script_dir + filepath
 
