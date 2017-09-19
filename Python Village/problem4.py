@@ -1,5 +1,3 @@
-from datasetImporter import import_two_integers
-
 def sum_odds(int_tuple):
     a,b = int_tuple
     count = 0
@@ -14,7 +12,7 @@ def test_sum():
     #assert sum_odds((100, 200)) == 7500
 
 
-input_tuple = 4108,8116
+input_tuple = 4550,8556
 #input_tuple = 100,200
 
 print(sum_odds(input_tuple))

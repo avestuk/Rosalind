@@ -1,6 +1,7 @@
 import os, itertools
 
 
+
 def create_filepath():
     filename = input('What is your input file called? ')
     script_dir = os.path.dirname(__file__)
