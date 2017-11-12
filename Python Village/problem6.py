@@ -1,4 +1,4 @@
-import create_filepath from datasetImporter
+from datasetImporter import create_filepath
 
 def word_counter():
     with open(create_filepath()) as file:
@@ -15,4 +15,3 @@ def word_counter():
 
 #word_counter()
 
-print(sys.path)
