@@ -22,3 +22,4 @@ def rna_codon_mapping():
         protein_string += rna_codon_map[x]
     return protein_string
 
+rna_codon_mapping()
