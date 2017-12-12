@@ -1,15 +1,10 @@
+count = 0
+
 def fib(n, k):
-    count = 1
-    first_generation = 1
-    population = 1
-    while count < n+1:
-        if count == 1 or count == 2:
-            population += 3
-            count += 1
-        else:
-            population += k
-            count += 1
-    return population
+    if n == 1 or n ==2:
+        global count = 1
+    global count+= k
+    return fib(n-1, k) + fib(n-1, k)
 
 
 print(fib(5,3))
